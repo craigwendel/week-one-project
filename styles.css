@@ -1,0 +1,246 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+header {
+  background-color: #ffffff;
+  height: 8vh;
+}
+
+#logo {
+  content: url("../week-one-project/images/optimized/bent-creek-logo.png");
+  height: 6vh;
+  width: 2.75vw;
+  transform: translateY(15%);
+  position: absolute;
+
+}
+.nav-menu ul{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 5vh;
+}
+a {
+   color: #2B2F26;
+}
+a:hover {
+  color: #967343;
+}
+a:active {
+  color: #968772;
+}
+.nav-menu li {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #2B2F26;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1%;
+  margin: 2%;
+  height: 5vh;
+}
+.hero-image {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #F2F1E8;
+  text-align: center;
+  height: 40vh;
+}
+.main-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 4em;
+  color: #131511;
+  font-weight: 500;
+}
+.sub-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  color: #131511;
+  font-weight: 200;
+}
+main {
+  background-color: #F2F1E8;
+}
+.main-section {
+ position: relative;
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-content: space-between;
+ align-items: center;
+ z-index: 1;
+ margin: 0% 1% 0% 1%;
+}
+#product-1 {
+  background-image: url("../week-one-project/images/optimized/product-1.jpg");
+  height: 50vh;
+  width: 70vw;
+  background-size: cover;
+  margin: 0.5%;
+}
+#product-2 {
+  background-image: url("../week-one-project/images/optimized/product-2.jpg");
+  height: 50vh;
+  width: 20vw;
+  background-size: cover;
+  margin: 0.5%;
+}
+#product-3 {
+  background-image: url("../week-one-project/images/optimized/product-3.jpg");
+  height: 50vh;
+  width: 20vw;
+  background-size: cover;
+  margin: 0.5%;
+}
+
+.product-top-txt {
+  background-color: #2c2f27;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  height: 8vh;
+  width: 15vw;
+  position: absolute;
+  transform: translateY(100px);
+  float: left;
+  z-index: 2;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#product-1-txt {
+  margin-left: 0.5%;
+}
+
+#product-2-txt {
+  background-color: #2c2f27;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  height: 8vh;
+  width: 5vw;
+  position: absolute;
+  transform: translateY(100px);
+  margin-left: 63.25%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#product-3-txt {
+  margin-left: 82%;
+
+}
+.sub-section {
+ position: relative;
+ display:flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-content: space-between;
+ align-items: center;
+ z-index: 1;
+ margin: 0% 1% 0% 1%;
+ background-color: #F2F1E8;
+ }
+
+#product-4 {
+    background-image: url("../week-one-project/images/optimized/product-4.jpg");
+    height: 30vh;
+    width: 20vw;
+    background-size: cover;
+    margin:  0.5% 0.5% 1% 0.5%;
+}
+
+#product-5 {
+    background-image: url("../week-one-project/images/optimized/product-5.jpg");
+    height: 30vh;
+    width: 20vw;
+    background-size: cover;
+    margin:  0.5% 0.5% 1% 0.5%;
+}
+#product-6 {
+    background-image: url("../week-one-project/images/optimized/product-6.jpg");
+    height: 30vh;
+    width: 40vw;
+    background-size: cover;
+    margin:  0.5% 0.5% 1% 0.5%;
+}
+#product-7 {
+    background-image: url("../week-one-project/images/optimized/product-7.jpg");
+    height: 30vh;
+    width: 20vw;
+    background-size: cover;
+    margin:  0.5% 0.5% 1% 0.5%;
+}
+
+.product-btm-txt {
+  background-color: #2c2f27;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  height: 8vh;
+  width: 6vw;
+  position: absolute;
+  transform: translateY(60px);
+  float: left;
+  z-index: 2;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#product-4-txt {
+  margin-left: 0.5%;
+}
+
+#product-5-txt {
+  margin-left: 20.75%;
+  width: 14vw;
+}
+
+#product-6-txt {
+  margin-left: 41%;
+  width: 12vw;
+}
+
+#product-7-txt {
+  margin-left: 80.5%;
+  width: 15vw;
+}
+
+footer {
+  background-color: #2c2f27;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  height: 10vh;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 20px;
+}
